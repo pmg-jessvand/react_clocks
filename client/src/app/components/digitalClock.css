@@ -1,0 +1,38 @@
+.digital-clock {
+  margin: 0px 20px;
+  padding: 50px;
+  border-radius: 8px;
+  text-align: center;
+  color: #f9f9f9;
+  width: 100%;
+}
+
+.digital-clock:first-child {
+  background: url(https://pix10.agoda.net/hotelImages/4867858/0/f4836060a27734ff933a7719868e2206.jpg?s=1024x768);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.digital-clock:nth-child(2) {
+  background: url(https://images3.persgroep.net/rcs/PiIR2ydioxFMkWdWJEF-LM54qTg/diocontent/67714075/_crop/0/111/1620/915/_fitwidth/763?appId=93a17a8fd81db0de025c8abd1cca1279&quality=0.8);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.digital-clock:nth-child(3) {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/3/32/20190616154621%21Echo_Park_Lake_with_Downtown_Los_Angeles_Skyline.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.digital-clock .country {
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-shadow: 0 0 2px rgb(0, 0, 0);
+}
+
+.digital-clock .time{
+  font-weight: 900;
+  font-size: 50px;
+  text-shadow: 0 0 5px rgb(0, 255, 191);
+}
