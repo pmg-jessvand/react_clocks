@@ -1,0 +1,23 @@
+.binary-clock {
+  display: flex;
+  align-items: flex-end;
+  margin: 50px 0px;
+}
+
+.led-strip {
+  font-size: 3rem;
+  font-weight: 900;
+  padding: 32px;
+  margin: 0 6px;
+}
+
+.led {
+  margin: 5px 0px;
+  width: 32px;
+  height: 32px;
+  background-color: rgb(34, 50, 65);
+}
+
+.led--ison {
+  background-color: rgb(0, 250, 146);
+}

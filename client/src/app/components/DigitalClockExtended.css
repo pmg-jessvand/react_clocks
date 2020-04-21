@@ -1,0 +1,21 @@
+.digital-clock-extended {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 50%;
+  margin-top: 50px;
+}
+
+.digital-clock-extended .digit{
+  background-color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
+
+  font-size: 3rem;
+  font-weight: 900;
+  padding: 32px;
+  margin: 0 8px;
+}
+
+.digital-clock-extended .digit:nth-of-type(1){
+  background-color: red;
+  transform: rotate(45deg);
+}
